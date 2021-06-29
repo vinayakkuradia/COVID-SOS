@@ -1,0 +1,14 @@
+.footer {
+	padding-top: 20px;
+}
+
+.footer a {
+	/*color: rgb(96, 99, 102);*/
+	text-decoration: none;
+	color: rgba(32, 35, 42, 0.7);
+}
+
+.footer a:hover {
+	text-decoration: none;
+	color: rgba(32, 35, 42, 0.85);
+}

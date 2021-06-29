@@ -1,21 +1,20 @@
 import React from "react";
-import NavBar from "./NavBar";
 import Instructions from "./Instructions";
-import Footer from "./Footer";
 import Counts from "./Counts";
 import Hero from "./Hero";
 import FAQs from "./FAQs";
+import Components from "../components";
 import "./home.css";
 
 const Home = () => {
 	return (
 		<>
-			<NavBar />
+			<Components.NavBar />
 			<Hero />
 			<Counts />
 			<Instructions />
 			<FAQs />
-			<Footer />
+			<Components.Footer />
 		</>
 	);
 };

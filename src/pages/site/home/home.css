@@ -41,24 +41,14 @@
 		),
 		url(./images/Asset2.jpg);
 	background-color: #fff;
+	background-position: center;
+	background-repeat: no-repeat;
 	background-size: cover;
+	position: relative;
 	min-height: 30rem;
 	margin-bottom: 0;
 }
 
 .list-group-item {
 	background: transparent !important;
-}
-
-.footer {
-	padding-top: 20px;
-}
-
-.footer a {
-	/*color: rgb(96, 99, 102);*/
-	color: rgba(32, 35, 42, 0.7);
-}
-.footer a:hover {
-	text-decoration: none;
-	color: rgba(32, 35, 42, 0.85);
 }

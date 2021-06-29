@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import "./Footer.css";
 
 class Footer extends React.Component {
 	render() {
@@ -45,14 +46,16 @@ class Footer extends React.Component {
 						</div>
 
 						<div className="col-12 col-sm-3">
-							<h4 id="logo" href="#home" className="text-center">
+							<h4 id="mainlogo" href="#home" className="text-center">
 								COVID SOS Portal
 							</h4>
 							<div className="text-center">
 								<a
 									className="btn btn-social-icon btn-facebook"
 									href="http://www.facebook.com/profile.php?id=">
-									<i className="fab fa-facebook" aria-hidden="true"></i>
+									<i
+										className="fab fa-facebook"
+										aria-hidden="true"></i>
 								</a>
 								<a
 									className="btn btn-social-icon btn-twitter"
