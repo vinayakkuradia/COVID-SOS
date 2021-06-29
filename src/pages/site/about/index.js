@@ -1,8 +1,7 @@
 import React from "react";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import Holder from "holderjs";
-import NavBar from "../home/NavBar";
-import Footer from "../home/Footer";
+import Components from "../components";
 // Remove it when you'll embed a suitable image
 let corona = "holder.js/700x400?text=Corona Count&bg=373940";
 
@@ -13,7 +12,7 @@ class About extends React.Component {
 	render() {
 		return (
 			<>
-				<NavBar />
+				<Components.NavBar />
 				<div className="container profile">
 					<form method="">
 						<div className="row">
@@ -29,7 +28,7 @@ class About extends React.Component {
 						</div>
 					</form>
 				</div>
-				<Footer />
+				<Components.Footer />
 			</>
 		);
 	}

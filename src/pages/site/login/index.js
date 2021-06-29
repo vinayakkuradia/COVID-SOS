@@ -1,12 +1,12 @@
 import React from "react";
-import NavBar from "../home/NavBar";
+import Components from "../components";
 import LoginForm from "./LoginForm";
 
 class Login extends React.Component {
 	render() {
 		return (
 			<>
-				<NavBar />
+				<Components.NavBar />
 				<LoginForm />
 			</>
 		);
