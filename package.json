@@ -5,6 +5,7 @@
   "dependencies": {
     "axios": "0.21.1",
     "bootstrap": "4.6.0",
+    "caniuse-lite": "1.0.30001247",
     "chart.js": "3.4.1",
     "firebase": "8.6.8",
     "firebaseui": "4.8.0",
