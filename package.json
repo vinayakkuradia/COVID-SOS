@@ -5,16 +5,24 @@
   "dependencies": {
     "axios": "0.21.1",
     "bootstrap": "4.6.0",
-    "browserslist": "4.16.6",
+    "chart.js": "3.4.1",
     "firebase": "8.6.8",
     "firebaseui": "4.8.0",
     "font-awesome": "4.7.0",
+    "fuse.js": "6.4.6",
     "holderjs": "2.9.9",
+    "jquery": "3.6.0",
+    "moment": "2.29.1",
+    "popper.js": "1.16.1",
     "react": "^16.9.0",
     "react-bootstrap": "1.6.1",
+    "react-chartjs-2": "3.0.3",
+    "react-chat-elements": "10.15.0",
     "react-dom": "^16.9.0",
+    "react-icons": "4.2.0",
     "react-router-dom": "5.2.0",
-    "react-scripts": "3.1.1"
+    "react-scripts": "3.1.1",
+    "react-toastify": "7.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
